@@ -1,0 +1,38 @@
+{"intents": [
+	{"tag":"greeting",
+	 "patterns": ["Hi there","How are you","Is anyone there?","Hey","Hola","Hello","Good day"],
+	 "responses":["Hello, thanks for asking","Good to see you again","Hi there, how can I help?"],
+	 "context": [""]
+	},
+	{"tag":"goodbye",
+	 "patterns":["Bye","See you later","GoodBye","Nice chatting to you","Till next time"],
+	 "responses":["see you!","Have a nice day","Bye! Come back again soon"],
+	 "context": [""]
+	},
+	{"tag":"Thanks",
+	 "patterns":["Thanks","Thank you","That's helpful","Awesome, thanks","Thanks for helping me"],
+	 "responses":["Happy to help!","Any time!","My pleasure"],
+	 "context": [""]
+	},
+	{"tag":"noanswer",
+	 "patterns":[],
+	 "responses":["Sorry, can't understand you","Please give me more info","Not sure I understand"],
+	 "context": [""]
+        },
+        {"tag":"options",
+	 "patterns":["How you could help me?", "what you can do?","what help you provide?"],
+	 "responses":["I can guide you to understand the background of Lorena, her projects, skills, hobbies and aspirations"],
+	 "context": [""]
+        },
+	{"tag": "presentation",
+         "patterns":["Can you introduce yourself?", "Who is Lorena GONGANG?"],
+	 "responses":["Yes of course,I am Lorena GONGANG, a young graduate from Cameroon. I have a Master's degree in engineering with a major in Big Data for the digital transformation of the ESIGELEC school. I have two years of experience at Thales Alenia Space where I was an apprentice software developer. I am passionate about data, IT and finance. And I am therefore looking for a springboard in the world of data."],
+	 "context": [""]
+        },
+	 {"tag":"skills",
+	 "patterns":["which programming languages do you master?", "Which programming languages do you use?"],
+	 "responses":["Throughout my professional and educational experience, I have had to develop skills in several programming languages: Python, R, Java, Javascript(d3.js), C#, HTML, CSS3, etc."],
+	 "context": [""]
+   }
+]
+}
